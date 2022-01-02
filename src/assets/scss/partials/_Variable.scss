@@ -1,0 +1,69 @@
+// font family
+$font-body: 'Roboto', sans-serif;
+
+//Colors
+$color-primary: #ff3147;
+$color-secondary: #101213;
+
+$color-linearGradient1: linear-gradient(90deg, #ff8345 0%, #f85c70 100%);
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-body: #545454;
+$color-border: #e7e7e7;
+
+$color-gray: #f6f6f6;
+
+:root {
+  --font-body: 'Roboto', sans-serif;
+
+  --color-primary: #ff3147;
+  --color-secondary: #101213;
+
+  --color-linearGradient1: linear-gradient(90deg, #ff8345 0%, #f85c70 100%);
+  --color-linearGradient1Hover: linear-gradient(
+    90deg,
+    #f85c70 0%,
+    #ff8345 100%
+  );
+
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-body: #545454;
+  --color-border: #e7e7e7;
+
+  --color-grey: #f6f6f6;
+}
+
+// brakpoints
+$breakpoints: (
+  "xs": (
+    max-width: 575px,
+  ),
+  "sm": (
+    max-width: 767px,
+  ),
+  "md": (
+    max-width: 991px,
+  ),
+  "lg": (
+    max-width: 1199px,
+  ),
+) !default;
+
+$border-radius-xs: 4px;
+$border-radius-sm: 6px;
+$border-radius-md: 10px;
+$border-radius-lg: 15px;
+
+$color-fb: #1559c2;
+$color-tw: #1ea9e9;
+$color-in: #3f729b;
+$color-vm: #2cc0eb;
+$color-pn: #3b5998;
+$color-wh: #43ce13;
+$color-dr: #f65e97;
+$color-dw: #ff6b10;
+$color-yu: #ed1d25;
